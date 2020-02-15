@@ -1,10 +1,12 @@
 package shape;
 
-public class Shape {
+public abstract class Shape {
     private static final String DEFAULT_COLOR = "black";
     private String color;
     public String name;
 
+
+    public abstract void draw();
 
     public String getColor() {
         return color;
@@ -13,5 +15,6 @@ public class Shape {
     public void setColor(String color) {
         this.color = color;
     }
+
 
 }

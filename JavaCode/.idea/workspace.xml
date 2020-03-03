@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bcdc4a8-8c9f-4d95-93e7-b9f1d73d14ae" name="默认的" comment="异步回调" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +19,7 @@
       <list>
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -30,6 +30,11 @@
   <component name="ProjectId" id="1Rk1Tor1DN2gFmNM7DYQZiEgry5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -52,19 +57,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.Test2.test2">
+  <component name="RunManager" selected="Application.ReflectTest">
+    <configuration name="ReflectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.ReflectTest" />
+      <module name="JavaCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LambdaTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCode" />
       <extension name="coverage">
@@ -91,22 +97,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="Lambda" />
       <option name="MAIN_CLASS_NAME" value="Lambda.LambdaTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lambda" />
-      <option name="MAIN_CLASS_NAME" value="Lambda.Test1" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -147,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReflectTest" />
         <item itemvalue="JUnit.Test2.test2" />
         <item itemvalue="JUnit.Test2.test1" />
         <item itemvalue="JUnit.LambdaTest.test2" />
         <item itemvalue="JUnit.LambdaTest.test1" />
-        <item itemvalue="JUnit.Test1.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -196,5 +186,31 @@
     </ignored-roots>
     <MESSAGE value="异步回调" />
     <option name="LAST_COMMIT_MESSAGE" value="异步回调" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="768" y="265" width="374" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1583221295766">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="768" y="265" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1583221295766" />
+    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1583221712729">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1583221712729" />
+    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1583221712728">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1583221712728" />
+    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1583221712727">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1583221712727" />
+    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1583221712728">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1583221712728" />
+    <state x="616" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1583217989652">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="616" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583217989652" />
   </component>
 </project>

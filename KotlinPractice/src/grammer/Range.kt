@@ -19,7 +19,7 @@ fun main() {
 
     val intRangeWithStep = 1..10 step 2 //步长
 
-    if (3 in doubleRange)
+    if (3.0 in doubleRange)
         println("3 in double range")
 
     intRange.forEach {

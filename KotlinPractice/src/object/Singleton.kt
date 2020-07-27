@@ -1,10 +1,9 @@
 package `object`
 
 object Singleton {
-   @JvmField var x: Int = 1
+    var s = 2
 
-//    companion object {
-//        @JvmStatic
-//        var s: Int = 1
-//    }
+     object StaticInnerSingleton {
+        var x = 1
+    }
 }

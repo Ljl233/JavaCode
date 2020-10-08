@@ -11,9 +11,6 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="JavaCode" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -33,7 +30,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -41,12 +37,18 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554974260211" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
@@ -57,7 +59,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReflectTest">
+  <component name="RunManager" selected="Application.RMFile">
+    <configuration name="RMFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.RMFile" />
+      <module name="JavaCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReflectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="annotation.ReflectTest" />
       <module name="JavaCode" />
@@ -71,18 +86,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lambda" />
-      <option name="MAIN_CLASS_NAME" value="Lambda.LambdaTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,14 +149,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RMFile" />
         <item itemvalue="Application.ReflectTest" />
         <item itemvalue="JUnit.Test2.test2" />
         <item itemvalue="JUnit.Test2.test1" />
         <item itemvalue="JUnit.LambdaTest.test2" />
-        <item itemvalue="JUnit.LambdaTest.test1" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -155,6 +168,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554971746024</updated>
+      <workItem from="1602140898777" duration="921000" />
+      <workItem from="1602143332254" duration="3574000" />
     </task>
     <task id="LOCAL-00001" summary="异步回调">
       <created>1570199285751</created>
@@ -166,18 +181,20 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -188,29 +205,85 @@
     <option name="LAST_COMMIT_MESSAGE" value="异步回调" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="768" y="265" width="374" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1583221295766">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="320" y="5" key="#Project_Structure" timestamp="1602140928227">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="768" y="265" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1583221295766" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1583221712729">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="320" y="5" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1602140928227" />
+    <state x="657" y="314" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602144831853">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1583221712729" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1583221712728">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="657" y="314" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1602144831853" />
+    <state width="1866" height="528" key="GridCell.Tab.0.bottom" timestamp="1602146750099">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1583221712728" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1583221712727">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1866" height="528" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602146750099" />
+    <state width="1866" height="528" key="GridCell.Tab.0.center" timestamp="1602146750099">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1583221712727" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1583221712728">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1866" height="528" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602146750099" />
+    <state width="1866" height="528" key="GridCell.Tab.0.left" timestamp="1602146750099">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1583221712728" />
-    <state x="616" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1583217989652">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1866" height="528" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602146750099" />
+    <state width="1866" height="528" key="GridCell.Tab.0.right" timestamp="1602146750099">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="616" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583217989652" />
+    <state width="1866" height="528" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602146750099" />
+    <state width="1866" height="238" key="GridCell.Tab.1.bottom" timestamp="1602146484914">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1866" height="238" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602146484914" />
+    <state width="1866" height="238" key="GridCell.Tab.1.center" timestamp="1602146484914">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1866" height="238" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602146484914" />
+    <state width="1866" height="238" key="GridCell.Tab.1.left" timestamp="1602146484914">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1866" height="238" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602146484914" />
+    <state width="1866" height="238" key="GridCell.Tab.1.right" timestamp="1602146484914">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1866" height="238" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602146484914" />
+    <state x="614" y="414" width="682" height="272" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602144508168">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="614" y="414" width="682" height="272" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1080@0.0.1920.1080" timestamp="1602144508168" />
+    <state x="645" y="58" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602145379762">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="645" y="58" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1602145379762" />
+    <state x="395" y="208" width="1130" height="800" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602146468754">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="395" y="208" width="1130" height="800" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1080@0.0.1920.1080" timestamp="1602146468754" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/io/RMFile.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar:///usr/local/lib/jdk1.8/src.zip!/java/io/UnixFileSystem.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>jar:///usr/local/lib/jdk1.8/src.zip!/java/io/UnixFileSystem.java</url>
+          <line>95</line>
+          <properties class="java.io.UnixFileSystem" method="prefixLength">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
